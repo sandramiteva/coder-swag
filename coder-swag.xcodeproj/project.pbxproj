@@ -13,6 +13,8 @@
 		B66951391FD6A518003EB4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66951381FD6A518003EB4FC /* Assets.xcassets */; };
 		B669513C1FD6A518003EB4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B669513A1FD6A518003EB4FC /* LaunchScreen.storyboard */; };
 		B66951471FD6B015003EB4FC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66951461FD6B015003EB4FC /* CategoryCell.swift */; };
+		B66951491FD6BAAA003EB4FC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66951481FD6BAAA003EB4FC /* Category.swift */; };
+		B669514C1FD6D342003EB4FC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669514B1FD6D342003EB4FC /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B669513B1FD6A518003EB4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B669513D1FD6A518003EB4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B66951461FD6B015003EB4FC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		B66951481FD6BAAA003EB4FC /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B669514B1FD6D342003EB4FC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		B66951301FD6A518003EB4FC /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				B669514A1FD6D32F003EB4FC /* Services */,
 				B66951451FD6AAA0003EB4FC /* View */,
 				B66951441FD6AA95003EB4FC /* Model */,
 				B66951431FD6AA8A003EB4FC /* Controller */,
@@ -79,6 +84,7 @@
 		B66951441FD6AA95003EB4FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B66951481FD6BAAA003EB4FC /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				B66951461FD6B015003EB4FC /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B669514A1FD6D32F003EB4FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B669514B1FD6D342003EB4FC /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,8 @@
 				B66951341FD6A518003EB4FC /* CategoriesVC.swift in Sources */,
 				B66951471FD6B015003EB4FC /* CategoryCell.swift in Sources */,
 				B66951321FD6A518003EB4FC /* AppDelegate.swift in Sources */,
+				B66951491FD6BAAA003EB4FC /* Category.swift in Sources */,
+				B669514C1FD6D342003EB4FC /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
