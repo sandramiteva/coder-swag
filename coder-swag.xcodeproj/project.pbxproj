@@ -17,6 +17,7 @@
 		B669514C1FD6D342003EB4FC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669514B1FD6D342003EB4FC /* DataService.swift */; };
 		B669514E1FD7FC71003EB4FC /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669514D1FD7FC71003EB4FC /* ProductCell.swift */; };
 		B66951501FD801CF003EB4FC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669514F1FD801CF003EB4FC /* Product.swift */; };
+		B66951521FD82959003EB4FC /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66951511FD82959003EB4FC /* ProductsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B669514B1FD6D342003EB4FC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B669514D1FD7FC71003EB4FC /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		B669514F1FD801CF003EB4FC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B66951511FD82959003EB4FC /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				B66951331FD6A518003EB4FC /* CategoriesVC.swift */,
+				B66951511FD82959003EB4FC /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				B66951471FD6B015003EB4FC /* CategoryCell.swift in Sources */,
 				B66951321FD6A518003EB4FC /* AppDelegate.swift in Sources */,
 				B669514E1FD7FC71003EB4FC /* ProductCell.swift in Sources */,
+				B66951521FD82959003EB4FC /* ProductsVC.swift in Sources */,
 				B66951491FD6BAAA003EB4FC /* Category.swift in Sources */,
 				B669514C1FD6D342003EB4FC /* DataService.swift in Sources */,
 				B66951501FD801CF003EB4FC /* Product.swift in Sources */,
